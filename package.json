@@ -16,7 +16,8 @@
         "tauri": "tauri",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "ci": "npm run lint && prettier --check ."
     },
     "dependencies": {
         "@hookform/resolvers": "^5.2.2",

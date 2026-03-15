@@ -153,6 +153,28 @@ This project uses shadcn/ui for UI components. When adding new components:
 2. Place components in `src/components/ui/`
 3. Do NOT manually copy components from other projects
 
+**Componentes Disponíveis**
+
+Para adicionar um novo componente, use: `npx shadcn@latest add <nome-do-componente>` (em lowercase kebab-case).
+
+|                    |                  |               |                 |
+| ------------------ | ---------------- | ------------- | --------------- |
+| Accordion          | Alert            | Alert Dialog  | Aspect Ratio    |
+| Avatar             | Badge            | Breadcrumb    | Button          |
+| Button Group       | Calendar         | Card          | Carousel        |
+| Chart              | Checkbox         | Collapsible   | Combobox        |
+| Command            | Context Menu     | Data Table    | Date Picker     |
+| Dialog             | Direction        | Drawer        | Dropdown Menu   |
+| Empty              | **Field** (Form) | Hover Card    | Input           |
+| Input Group        | Input OTP        | Item          | Kbd             |
+| Label              | Menubar          | Native Select | Navigation Menu |
+| Pagination         | Popover          | Progress      | Radio Group     |
+| Resizable          | Scroll Area      | Select        | Separator       |
+| Sheet              | Sidebar          | Skeleton      | Slider          |
+| **Sonner** (Toast) | Spinner          | Switch        | Table           |
+| Tabs               | Textarea         | Toggle        | Toggle Group    |
+| Tooltip            |                  |               |
+
 ## Icons
 
 Use `react-icons` with **Lucide** icons:
